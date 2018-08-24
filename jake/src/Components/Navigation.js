@@ -15,6 +15,35 @@ const NavItem = props => {
   );
 }
 
+class NavDropdown extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isToggleOn: false
+    };
+  }
+  showDropdown(e) {
+    e.preventDefault();
+    this.setState(prevState => ({
+      isToggleOn: !prevState.isToggleOn
+    }));
+  }
+  render() {
+    const classDropdownMenu = 'dropdown-menu' + (this.state.isToggleOn ? ' show' : '')
+    return (
+      <li className="nav-item dropdown">
+        <a className="nav-link dropdown-toggle" href="/" id="navbarDropdown" role="button" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false"
+          onClick={(e) => {this.showDropdown(e)}}>
+          {this.props.name}
+        </a>
+        <div className={classDropdownMenu} aria-labelledby="navbarDropdown">
+          {this.props.children}
+        </div>
+      </li>
+    )
+  }
+}
 
 class Navigation extends React.Component {
 render(){
@@ -30,27 +59,22 @@ render(){
    				 <span className="navbar-toggler-icon"></span>
  			 </button>
 
+
 			  <div className="collapse navbar-collapse" id="navbarNavDropdown">
 			    <ul className="navbar-nav">
 
 			      <NavItem path="/" name="Home" />
-			      <NavItem path="/" name="About" />
-			      <NavItem path="/" name="Contact" />
+			      <NavItem path="/About" name="About" />
+			      <NavItem path="/Contact" name="Contact" />
+			       
 
 
-
-			      <li className="nav-item dropdown">
-			        <a className="nav-link dropdown-toggle"
-			         href="/" id="navbarDropdownMenuLink" role="button" 
-			         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-			          Dropdown link
-			        </a>
-			        <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-			          <a className="dropdown-item" href="/">Action</a>
-			          <a className="dropdown-item" href="/">Another action</a>
-			          <a className="dropdown-item" href="/">Something else here</a>
-			        </div>
-			      </li>
+			      <NavDropdown name="Projects">
+                <a className="dropdown-item" href="/MechEng">Mechanical Engineering</a>
+                <div className="dropdown-divider"></div>
+                <a className="dropdown-item" href="/WebDev">Web Developement</a>              
+                <a className="dropdown-item" href="/Mobile">Mobile Apps</a>
+             	 </NavDropdown>
 
 			    </ul>
 			  </div>
