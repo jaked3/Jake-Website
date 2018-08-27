@@ -45,13 +45,13 @@ class NavDropdown extends React.Component {
   }
 }
 
-class Navigation extends React.Component {
-render(){
+const Navigation = ({onRouteChange}) => {
 
 	return(
 		<div>
 		 <nav className="navbar navbar-expand-lg navbar-light bg-light">
   			<a className="navbar-brand" href="/">Jake</a>
+
  			 <button className="navbar-toggler" type="button" 
  			 data-toggle="collapse" data-target="#navbarNavDropdown"
  			  aria-controls="navbarNavDropdown" aria-expanded="false" 
@@ -63,8 +63,10 @@ render(){
 			  <div className="collapse navbar-collapse" id="navbarNavDropdown">
 			    <ul className="navbar-nav">
 
-			      <NavItem path="/" name="Home" />
-			      <NavItem path="/About" name="About" />
+
+            <NavItem path="/" name="Home" onClick={() => console.log("home")}/>
+			      <NavItem path="/About" name="About" 
+            onClick={() => onRouteChange('About')}/>
 			      <NavItem path="/Contact" name="Contact" />
 			       
 
@@ -74,7 +76,7 @@ render(){
                 <div className="dropdown-divider"></div>
                 <a className="dropdown-item" href="/WebDev">Web Developement</a>              
                 <a className="dropdown-item" href="/Mobile">Mobile Apps</a>
-             	 </NavDropdown>
+             </NavDropdown>
 
 			    </ul>
 			  </div>
@@ -86,9 +88,6 @@ render(){
 }
 
 
-
-
-}
 
 export default Navigation;
 

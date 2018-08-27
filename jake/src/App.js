@@ -1,29 +1,46 @@
 import React, { Component } from 'react';
 import './App.css';
-import Navigation from './Components/Navigation';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Route from 'react-router-dom/Route';
+import Nav from './Components/Nav';
+import About from './Components/About';
+import Home from './Components/Home';
+
 
 class App extends Component {
+
+
   render() {
     return (
-      //< Navbar />
-
       <div>
-        <Navigation />
-        <div className="container">
-         <h1> Jaaake </h1>
+        <Nav />
 
-        </div>
+        <Router>
+
+          <div className='App'>
+
+          <Route path="/" exact strict render={ () => {
+            return (<h1> welcome </h1>);
+          } }/>
+
+          <Route path="/Home/" exact strict render={ () => {
+            return (<Home />);
+          } }/>
+
+          <Route path="/About/" exact strict render={ () => {
+            return (<About />);
+          }
+
+          }/>
+          </div>
+
+        </Router>
+      
       </div>
-
-
-        // <div className="App">
-         //   <header className="App-header">
-           
-            
-          //   </header>
-                  // </div>
+       
     );
   }
 }
+
 
 export default App;
