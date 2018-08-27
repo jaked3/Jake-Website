@@ -20,10 +20,6 @@ class App extends Component {
           <div className='App'>
 
           <Route path="/" exact strict render={ () => {
-            return (<h1> welcome </h1>);
-          } }/>
-
-          <Route path="/Home/" exact strict render={ () => {
             return (<Home />);
           } }/>
 
