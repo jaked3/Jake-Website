@@ -1,4 +1,13 @@
-.App {
+body{
+  background-position: center;
+  background-image: url("sky.jpg");
+  background-size: cover;
+  padding-bottom: 20%;
+  background-repeat: no-repeat;
+  
+}
+
+ .App {
   text-align: center;
 }
 

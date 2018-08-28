@@ -1,0 +1,9 @@
+body{
+
+  background-position: center;
+  background-image: url("gray.jpg");
+  background-size: cover;
+  padding-bottom: 20%;
+  background-repeat: no-repeat;
+    
+}
