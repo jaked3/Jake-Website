@@ -4,8 +4,9 @@ import './About.css';
 const About = () => {
 
 return (
-	<div >
-		<h1> about page </h1>
+	<div className='bgg'>
+		<h2 className='white'> My Story </h2>
+		<p >Jake is individual that</p>
 	</div>
 	);
 

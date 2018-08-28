@@ -1,10 +1,17 @@
-body{
+body {
+    height: 100%;
+}
 
+
+.bgg{
+  background-image: url("about.jpg");
   background-position: center;
-  background-image: url("gray.jpg");
   background-size: cover;
-  padding-bottom: 20%;
+  padding-bottom: 25%;
   background-repeat: no-repeat;
-    
+  height: 100%; 
+  opacity: 0.9;
+
+
 }
 
