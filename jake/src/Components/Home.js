@@ -18,7 +18,7 @@ const particlesOptions = {
 const Home = () => {
 
 return (
-
+<div className='bod'>
 	<div className='App'>
 		<Particles className='particles' 
 	              params={particlesOptions}
@@ -61,6 +61,7 @@ return (
 
 
 	</div>
+  </div>
 	);
 
 

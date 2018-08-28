@@ -1,10 +1,12 @@
-body{
+.bod{
   background-position: center;
   background-image: url("sky.jpg");
   background-size: cover;
   padding-bottom: 20%;
   background-repeat: no-repeat;
-  
+  opacity: 0.9;
+
+
 }
 
  .App {
