@@ -5,9 +5,11 @@ import Nav from './Components/Nav';
 import About from './Components/About/About';
 import Home from './Components/Home';
 import Contact from './Components/Contact/Contact';
-
+//import Cont from './Components/Contact/Cont';
 
 class App extends Component {
+
+
 
 //https://tylerkrys.ca/blog/adding-nodemailer-email-contact-form-node-express-app
 //https://www.youtube.com/watch?v=nF9g1825mwk
