@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Route from 'react-router-dom/Route';
 import Nav from './Components/Nav';
-import About from './Components/About';
+import About from './Components/About/About';
 import Home from './Components/Home';
-
+import Contact from './Components/Contact/Contact';
 
 
 class App extends Component {
@@ -33,6 +33,12 @@ class App extends Component {
 
           <Route path="/About/" exact strict render={ () => {
             return (<About />);
+          }
+
+          }/>
+
+           <Route path="/Contact/" exact strict render={ () => {
+            return (<Contact />);
           }
 
           }/>
