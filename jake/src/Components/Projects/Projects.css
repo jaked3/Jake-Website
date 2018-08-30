@@ -7,9 +7,17 @@
 }
 
 .Parralax {
-background: url(3.jpg) no-repeat center;
+background: url(kegb.jpg) no-repeat center;
 background-size: cover;
 background-attachment: fixed;
 height: 500px;
 
 }
+.more {
+background: url(3.jpg) no-repeat center;
+background-size: cover;
+background-attachment: fixed;
+height: 400px;
+
+}
+

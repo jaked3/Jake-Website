@@ -45,7 +45,7 @@ class App extends Component {
 
           }/>
 
-          <Route path="/Projects/" exact strict render={ () => {
+          <Route path="/mech/" exact strict render={ () => {
             return (<Projects />);
           }
 
