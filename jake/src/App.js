@@ -5,11 +5,12 @@ import Nav from './Components/Nav';
 import About from './Components/About/About';
 import Home from './Components/Home';
 import Contact from './Components/Contact/Contact';
+import Projects from './Components/Projects/Projects';
 //import Cont from './Components/Contact/Cont';
 
 class App extends Component {
 
-  
+
 //https://tylerkrys.ca/blog/adding-nodemailer-email-contact-form-node-express-app
 //https://www.youtube.com/watch?v=nF9g1825mwk
   render() {
@@ -40,6 +41,12 @@ class App extends Component {
 
            <Route path="/Contact/" exact strict render={ () => {
             return (<Contact />);
+          }
+
+          }/>
+
+          <Route path="/Projects/" exact strict render={ () => {
+            return (<Projects />);
           }
 
           }/>

@@ -45,6 +45,9 @@ export default class Example extends React.Component {
               <NavItem>
                 <NavLink href="/Contact/">Contact</NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink href="/Projects/">Projects</NavLink>
+              </NavItem>
               <UncontrolledDropdown nav inNavbar>
                 <DropdownToggle nav caret>
                   Projects
