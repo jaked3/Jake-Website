@@ -30,9 +30,10 @@ export default class Example extends React.Component {
   }
   render() {
     return (
-      <div >
+      <div className='cont'>
+      <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet"/>
         <Navbar color="blue" light expand="md" className="bb bw2 b--black-60 nav">
-          <NavbarBrand href="/">Jake</NavbarBrand>
+          <NavbarBrand className='strong'href="/">Jake</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>

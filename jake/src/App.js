@@ -6,6 +6,8 @@ import About from './Components/About/About';
 import Home from './Components/Home';
 import Contact from './Components/Contact/Contact';
 import Projects from './Components/Projects/Projects';
+import Web from './Components/Web/Web';
+import Mech from './Components/Mech/Mech';
 //import Cont from './Components/Contact/Cont';
 
 class App extends Component {
@@ -45,8 +47,14 @@ class App extends Component {
 
           }/>
 
-          <Route path="/mech/" exact strict render={ () => {
-            return (<Projects />);
+          <Route path="/Mech/" exact strict render={ () => {
+            return (<Mech />);
+          }
+
+          }/>
+
+           <Route path="/web/" exact strict render={ () => {
+            return (<Web />);
           }
 
           }/>

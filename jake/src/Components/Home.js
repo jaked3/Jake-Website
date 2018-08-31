@@ -34,7 +34,7 @@ return (
     className="br-100 h5 w5 dib ba b--black-05 pa1" 
     alt="Jake"/>
     <h1 className="f3 mb2">Jake Duff</h1>
-    <h2 className="f5 fw4 dark-gray mt0">Entrepreneur. Student. Innovator.</h2>
+    <h2 className="f5 fw4 dark-gray mt0">Biomedical and Mechanical Engineering student with a passion for Web and Mobile Application Development.</h2>
   </div>
 </div>
 
