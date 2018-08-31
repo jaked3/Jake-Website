@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import Route from 'react-router-dom/Route';
-import Nav from './Components/Nav';
+import Nav from './Components/Nav/Nav';
 import About from './Components/About/About';
-import Home from './Components/Home';
+import Home from './Components/Home/Home';
 import Contact from './Components/Contact/Contact';
 import Projects from './Components/Projects/Projects';
 import Web from './Components/Web/Web';
 import Mech from './Components/Mech/Mech';
+import Mobile from './Components/Mobile/Mobile';
 //import Cont from './Components/Contact/Cont';
 
 class App extends Component {
@@ -55,6 +56,12 @@ class App extends Component {
 
            <Route path="/web/" exact strict render={ () => {
             return (<Web />);
+          }
+
+          }/>
+
+             <Route path="/mobile/" exact strict render={ () => {
+            return (<Mobile />);
           }
 
           }/>
