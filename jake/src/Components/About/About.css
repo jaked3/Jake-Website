@@ -1,5 +1,6 @@
 body {
     height: 100%;
+    width:100%;
     background-color: blue;
 }
 
@@ -7,16 +8,15 @@ body {
 .about {
 background: url(hock.jpg) no-repeat center;
 background-size: cover;
+
 background-attachment: fixed;
 height:500px;
 
 }
 
 .about2 {
-background: url(bar.JPG) no-repeat center;
-background-size: cover;
-background-attachment: fixed;
-height:500px;
+background: url(dog.JPG) no-repeat center;
+
 
 }
 
@@ -27,9 +27,9 @@ height:500px;
 }
 
 .container {
-	width: auto;
+	width: 100%;
 	
-	background: #f9f9f9;
-	font-size: 24px;
+	background-size: cover;
+	font-size: 20px;
 	font-family: 'Noto Serif', serif;;
 }

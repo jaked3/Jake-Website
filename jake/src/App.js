@@ -9,6 +9,7 @@ import Projects from './Components/Projects/Projects';
 import Web from './Components/Web/Web';
 import Mech from './Components/Mech/Mech';
 import Mobile from './Components/Mobile/Mobile';
+import Example from './Components/About/Example';
 //import Cont from './Components/Contact/Cont';
 
 class App extends Component {

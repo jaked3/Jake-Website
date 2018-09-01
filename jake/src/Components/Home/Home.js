@@ -23,10 +23,27 @@ return (
 		<Particles className='particles' 
 	              params={particlesOptions}
 	            />
-		<div  className ='text-white text-center'>
-			<h1 className="col-lg-12 my-auto">
-       The Achiever </h1>
-		</div>
+
+
+
+ 
+  <article className="bt ">
+    <a className="db pv4 ph3 ph0-l no-underline  dim" href="https://www.collinsdictionary.com/dictionary/english/achiever">   
+        <h2 className="baskerville fw1 ph3 ph0-l text-white text-center">The Achiever</h2>
+    </a>
+  </article>
+
+
+
+
+
+		
+
+
+
+
+
+
 
     <div className="mw6 center bg-white-50 br3 pa2 pa5-ns mv5  ba b--black-10">
   <div className="tc">

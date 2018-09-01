@@ -1,0 +1,32 @@
+body{
+
+	background-color: blue;
+	z-index: 1;
+
+}
+
+.holder {
+max-width: 800px;
+position: center;
+margin: auto;
+}
+
+.backEx{
+  background-color: #92bde7;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 25%;
+  background-repeat: no-repeat;
+  height: 100%; 
+  opacity: 0.9;
+
+
+}
+
+.container {
+	width: 100%;
+	
+	background-size: cover;
+	font-size: 20px;
+	font-family: 'Noto Serif', serif;;
+}

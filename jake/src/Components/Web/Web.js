@@ -22,8 +22,7 @@ return (
         <div className="w-100 w-60-ns pl3-ns">
           <h1 className="f3 fw1 baskerville mt0 lh-title">Jake's Personal Web App</h1>
           <p className="f6 f5-l lh-copy">
-            This web application uses the React library with various npm packages such as tachyons for styling and particle.js for the dynamic backround. The front end is connected to a server using Node.js and Express which allows post requests for the contact page of this web application.
-          </p>
+            This web application uses the React library with various npm packages such as tachyons for styling and particle.js for the dynamic background. The front end is connected to a server using Node.js and Express which allows post requests for the contact page of this web application.</p>
         </div>
       </div>
     </a>

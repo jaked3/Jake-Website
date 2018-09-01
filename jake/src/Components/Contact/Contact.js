@@ -61,11 +61,12 @@ render(){
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
       <title>Contact Form</title>
-      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossOrigin="anonymous" />
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" 
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossOrigin="anonymous" />
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
       <link rel="stylesheet" href="style.css" />
-      <div className="container">
-        <h1 className='text-center'>Contact Form</h1>
+      <div className="container1">
+        <h1 className='text-center'>Contact</h1>
         <div className="wrapper animated bounceInLeft">
           <div className="company-info">
             <h3>Social Medias</h3>
@@ -94,7 +95,7 @@ render(){
             </div>
           </div>
           <div className="contact">
-            <h3>Email Me</h3>
+            <h3>Email:</h3>
            
             <form>
               <p>
