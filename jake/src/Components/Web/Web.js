@@ -15,7 +15,7 @@ return (
     <a className="db pv4 ph3 ph0-l no-underline black dim" href="http://localhost:3000">
       <div className="flex flex-column flex-row-ns">
         <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns"><img
-        src={require('./jakepage.PNG')} 
+        src={require('./jakepage.JPG')} 
           className="db" 
           alt="Photo of a dimly lit room with a computer interface terminal."/>
         </div>

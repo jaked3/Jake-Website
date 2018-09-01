@@ -32,12 +32,12 @@ return (
 
 		 <p>Despite my field of study, 
 		 I am fascinated in Web Application Design as well as Mobile Application Design. Most of my 
-		 life consists of studying for my engineering degree, playing hockey and programming.In my free time I
+		 life consists of studying for my engineering degree, playing hockey and programming. In my free time I
 		 enjoy keeping an active social environment by hanging out with my friends or bartending partime at the local bar. 
 		 </p>
 
 		 <p>
-		 	I am always looking for ways to advance his career and interests. 
+		 	I am always looking for ways to advance my career and interests. 
 			If you would like to find out more please refer to the "Projects" section of this site to see some of my
 			Mechanical, Web App and Mobile App projects. 
 		   </p>
