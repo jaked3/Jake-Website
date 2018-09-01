@@ -5,11 +5,10 @@ import Nav from './Components/Nav/Nav';
 import About from './Components/About/About';
 import Home from './Components/Home/Home';
 import Contact from './Components/Contact/Contact';
-import Projects from './Components/Projects/Projects';
 import Web from './Components/Web/Web';
 import Mech from './Components/Mech/Mech';
 import Mobile from './Components/Mobile/Mobile';
-import Example from './Components/About/Example';
+
 //import Cont from './Components/Contact/Cont';
 
 class App extends Component {

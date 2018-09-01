@@ -1,5 +1,4 @@
 import React from 'react';
-import './Mech.css';
 import 'tachyons';
 
 
@@ -7,15 +6,15 @@ import 'tachyons';
 const Mech = () => {
 
 return (
-	<section className="mw7 center avenir">
+	<section className="mw7 center avenir no-underline">
 	 <h2 className="baskerville fw1 ph3 ph0-l">Mechanical Engineering Projects</h2>
 	  <article className="bt bb b--black-10">
-	    <a className="db pv4 ph3 ph0-l no-underline black dim" href="http://localhost:3000/Mech/">
+	    <a className="db pv4 ph3 ph0-l no-underline black dim " href="http://localhost:3000/Mech/">
 	      <div className="flex flex-column flex-row-ns">
-	        <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns"><img
+	        <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns "><img
 	        src={require('./keg.jpg')} 
 	          className="db" 
-	          alt="Photo of a dimly lit room with a computer interface terminal."/>
+	          alt="MAP-K"/>
 	        </div>
 	        <div className="w-100 w-60-ns pl3-ns">
 	          <h1 className="f3 fw1 baskerville mt0 lh-title">March Networks MAP-K</h1>

@@ -15,7 +15,7 @@ return (
 	        <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns"><img
 	        src={require('./unity.png')} 
 	          className="db" 
-	          alt="Photo of a dimly lit room with a computer interface terminal."/>
+	          alt="Unity Logo"/>
 	        </div>
 	        <div className="w-100 w-60-ns pl3-ns">
 	          <h1 className="f3 fw1 baskerville mt0 lh-title">Unity Android & IOS Application</h1>

@@ -66,7 +66,7 @@ render(){
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
       <link rel="stylesheet" href="style.css" />
       <div className="container1">
-        <h1 className='text-center'>Contact</h1>
+        <h1 className='text-center f1 f-headline-l fw1 b'>Contact</h1>
         <div className="wrapper animated bounceInLeft">
           <div className="company-info">
             <h3>Social Medias</h3>

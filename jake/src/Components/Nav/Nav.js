@@ -32,11 +32,11 @@ export default class Example extends React.Component {
     return (
       <div className='cont'>
       <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet"/>
-        <Navbar color="blue" light expand="md" className="bb bw2 b--black-60 nav">
+        <Navbar color="black-60" light expand="md" className="bb bw2 b--black-60 nav ">
           <NavbarBrand className='strong'href="/">Jake</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
+            <Nav className="ml-auto "  navbar>
               <NavItem>
                 <NavLink href="/">Home</NavLink>
               </NavItem>

@@ -17,12 +17,12 @@ return (
         <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns"><img
         src={require('./jakepage.JPG')} 
           className="db" 
-          alt="Photo of a dimly lit room with a computer interface terminal."/>
+          alt="Jake's Webpage"/>
         </div>
         <div className="w-100 w-60-ns pl3-ns">
           <h1 className="f3 fw1 baskerville mt0 lh-title">Jake's Personal Web App</h1>
           <p className="f6 f5-l lh-copy">
-            This web application uses the React library with various npm packages such as tachyons for styling and particle.js for the dynamic background. The front end is connected to a server using Node.js and Express which allows post requests for the contact page of this web application.</p>
+            This web application was programmed with JavaScript and uses the React library with various npm packages such as tachyons for styling and particle.js for the dynamic background. The front end is connected to a server using Node.js and Express which allows post requests for the contact page of this web application.</p>
         </div>
       </div>
     </a>
@@ -33,7 +33,7 @@ return (
       <div className="flex flex-column flex-row-ns">
         <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
           <img src={require('./facedetect.PNG')}
-          className="db" alt="Photo of a warehouse with stacked shelves."/>
+          className="db" alt="Facial Detection Application"/>
         </div>
         <div className="w-100 w-60-ns pl3-ns">
           <h1 className="f3 fw1 baskerville mt0 lh-title">Facial Detection Application</h1>
@@ -49,7 +49,7 @@ return (
       <div className="flex flex-column flex-row-ns">
         <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
           <img src={require('./robot.PNG')}
-          className="db" alt="Photo of a whale's tale coming crashing out of the water."/>
+          className="db" alt="Robot App"/>
         </div>
         <div className="w-100 w-60-ns pl3-ns">
           <h1 className="f3 fw1 baskerville mt0 lh-title">React Search Engine App</h1>
