@@ -10,9 +10,7 @@ return (
 	  <div className="vh-100 dt w-100 tc bg-dark-gray white cover about2" >
 	    <div className="dtc v-mid">
 	      <div className="white-70">
-	        <h2 className="f6 fw1 ttu tracked mb2 lh-title"></h2>
-	        <h3 className="f6 fw1 lh-title"></h3>
-	      </div>
+	      	</div>
 	      <h1 className="f1 f-headline-l fw1 i white-60">Get To Know Me</h1>
 	      <div className="ph0 mh0 measure f4 lh-copy center">
 	        <p className="fw1 white-70">

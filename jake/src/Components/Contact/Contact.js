@@ -34,7 +34,7 @@ class Contact extends Component {
 
 
 onSubmitContact = () => {
-    fetch('http://localhost:3001/send', {
+    fetch('https://safe-harbor-11575.herokuapp.com/send', {
     method: 'post',
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify({

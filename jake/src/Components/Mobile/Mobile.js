@@ -1,5 +1,4 @@
 import React from 'react';
-//import './Mobile.css';
 import 'tachyons';
 
 

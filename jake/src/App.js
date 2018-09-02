@@ -9,13 +9,11 @@ import Web from './Components/Web/Web';
 import Mech from './Components/Mech/Mech';
 import Mobile from './Components/Mobile/Mobile';
 
-//import Cont from './Components/Contact/Cont';
 
 class App extends Component {
 
 
-//https://tylerkrys.ca/blog/adding-nodemailer-email-contact-form-node-express-app
-//https://www.youtube.com/watch?v=nF9g1825mwk
+
   render() {
     return (
       <div>

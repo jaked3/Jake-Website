@@ -48,7 +48,7 @@ return (
     <div className="mw6 center bg-white-50 br3 pa2 pa5-ns mv4  ba b--black-10">
   <div className="tc">
     <img src={require('./jake1.png')} 
-    className="br-100 h5 w5 dib ba b--black-05 pa1" 
+    className="br-100 h6 w6 dib ba b--black-05 pa1" 
     alt="Jake"/>
     <h1 className="f3 mb2">Jake Duff</h1>
     <h2 className="f5 fw4 dark-gray mt0">Biomedical and Mechanical Engineering student with a passion for Web and Mobile Application Development.</h2>
