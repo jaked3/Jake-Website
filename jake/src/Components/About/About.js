@@ -29,8 +29,7 @@ return (
 		 </p>
 
 		 <p>As well as my field of study, 
-		 I am fascinated in Web Application Design as well as Mobile Application Design. Most of my 
-		 life consists of studying for my engineering degree, playing hockey and programming. In my free time I
+		 I am fascinated in Web Application Design and Mobile Application Design. In my free time I
 		 enjoy keeping an active social environment by hanging out with my friends or bartending partime at the local bar. 
 		 </p>
 
