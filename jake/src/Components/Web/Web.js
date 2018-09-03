@@ -12,7 +12,9 @@ return (
 <section className="mw7 center avenir">
   <h2 className="baskerville fw1 ph3 ph0-l">Web Applications</h2>
   <article className="bt bb b--black-10">
-    <a className="db pv4 ph3 ph0-l no-underline black dim" href="http://localhost:3000">
+    <a className="db pv4 ph3 ph0-l no-underline black dim" href="https://jakeduff.herokuapp.com/"
+     target="_blank"
+     rel="noopener noreferrer">
       <div className="flex flex-column flex-row-ns">
         <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns"><img
         src={require('./jakepage.JPG')} 
@@ -29,7 +31,9 @@ return (
   </article>
   <article  className="bb b--black-10">
     <a className="db pv4 ph3 ph0-l no-underline black dim"
-   	href="https://facial-detection.herokuapp.com/">
+   	href="https://facial-detection.herokuapp.com/"
+     target="_blank"
+     rel="noopener noreferrer">
       <div className="flex flex-column flex-row-ns">
         <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
           <img src={require('./facedetect.PNG')}
@@ -45,7 +49,10 @@ return (
     </a>
   </article>
   <article className="bb b--black-10">
-    <a className="db pv4 ph3 ph0-l no-underline black dim" href="https://robohash.org/">
+    <a className="db pv4 ph3 ph0-l no-underline black dim" 
+    href="https://robohash.org/"
+     target="_blank"
+     rel="noopener noreferrer">
       <div className="flex flex-column flex-row-ns">
         <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns">
           <img src={require('./robot.PNG')}

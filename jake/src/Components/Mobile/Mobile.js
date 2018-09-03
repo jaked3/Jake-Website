@@ -9,7 +9,10 @@ return (
 	<section className="mw7 center avenir">
 	 <h2 className="baskerville fw1 ph3 ph0-l">Mobile Applications</h2>
 	  <article className="bt bb b--black-10">
-	    <a className="db pv4 ph3 ph0-l no-underline black dim" href="https://unity3d.com/">
+	    <a className="db pv4 ph3 ph0-l no-underline black dim"
+	     href="https://unity3d.com/"
+	      target="_blank"
+   		  rel="noopener noreferrer">
 	      <div className="flex flex-column flex-row-ns">
 	        <div className="pr3-ns mb4 mb0-ns w-100 w-40-ns"><img
 	        src={require('./unity.png')} 
