@@ -23,7 +23,7 @@ return (
 	            </p>
 	           <div>
 		        <video className="center  pa3"  controls
-				   src={require("./keg.MOV")} type="video/mov"/>
+				   src={require("./keg.mov")} type="video/mov"/>
 			
 	   			</div>
 	        </div>
